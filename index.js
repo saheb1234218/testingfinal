@@ -41,7 +41,7 @@ App.post("/memes",async(req,res)=>{
        url: murl});
     await user.save();
    
-    res.send(user);
+    res.send(user.id);
 })
 
 
