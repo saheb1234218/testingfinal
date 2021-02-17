@@ -1,0 +1,117 @@
+.main{
+    background-image: linear-gradient(rgb(121, 240, 214),rgb(231, 109, 247));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .form{
+    
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 400px;
+    width: 400px;
+   
+    
+    
+  }
+  .input-field{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 20px 10px 20px 10px;
+    height: 40px;
+    width: 300px;
+  }
+  .button{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 10px 20px 10px;
+    height: 40px;
+    width: 300px;
+   
+    color: black;
+  }
+  .post-item{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 400px;
+    
+    
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .button:hover{
+    background-image: linear-gradient(rgb(49, 28, 241),rgb(80, 173, 248));
+  }
+  .divider{
+    background-color:black;
+    width: 100%;
+    height: 5px;
+    
+  }
+  .edit-button{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width:90px;
+    height: 40px;
+   
+    color: black;
+   margin-left: 10px;
+   margin-right: 10px;
+  }
+  
+  .delete-button{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width:110px;
+    height: 40px;
+   
+    color: black;
+   
+    margin-top: 10px;
+  }
+  .delete-button:hover{
+    background-image: linear-gradient(rgb(49, 28, 241),rgb(80, 173, 248));
+  }
+  .edit-button:hover{
+    background-image: linear-gradient(rgb(49, 28, 241),rgb(80, 173, 248));
+  }
+  
